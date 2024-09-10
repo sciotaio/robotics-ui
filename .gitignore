@@ -1,4 +1,4 @@
 __pycache__
-*.gv
-*.pdf
-node_modules
+.venv
+data
+.env

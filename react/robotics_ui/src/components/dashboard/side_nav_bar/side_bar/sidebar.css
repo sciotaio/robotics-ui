@@ -1,0 +1,54 @@
+.sidebar-button {
+    border: none !important;
+    background-color: transparent !important;
+    font-size: 18px !important;
+}
+
+.close-sidebar-button{
+    border: none !important;
+    background-color: transparent !important;
+    font-size: 30px !important;
+}
+
+.open-sidebar-button{
+    border: none !important;
+    background-color: transparent !important;
+    font-size: 30px !important;
+}
+
+.sidebar-table {    
+    border-color: #8d8d8d !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+/* Change the default background color */
+.sidebar-table td, .custom-table th {
+    background-color: #111 !important;
+}
+
+/* Change the hover background color */
+.sidebar-table td:hover, .custom-table th:hover {
+    background-color: #303030 !important;
+}
+
+.hover-div:hover .sidebar-button {
+    background-color: #303030; /* Change this to the color you want when hovering */
+  }
+
+/* Change the default background color */
+.sidebar-table td, .sidebar-table th, .sidebar-table thead {
+    background-color: #111 !important;
+}
+
+/* Custom tooltip styles */
+.custom-tooltip .tooltip-inner {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid grey !important;
+  }
+  
+  .custom-tooltip .arrow::before {
+    border-right-color: white !important;
+    border-left-color: white !important;
+  }
