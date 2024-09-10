@@ -1,0 +1,44 @@
+
+.navbar {
+    height: 80px; /* Adjust the height as needed */
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    padding: 10px 20px;
+}
+
+.navbar-title {    
+    font-size: 2rem; /* Adjust the font size as needed */
+}
+
+.nav-button {
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.nav-button:hover {
+    background: none;
+    border: none;
+    color: #ccc;
+    text-decoration: underline;
+}
+
+
+.nav-button2 {
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+
+.nav-link {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {    
+    color: #ccc;
+    text-decoration: underline;
+}

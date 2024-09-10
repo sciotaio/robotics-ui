@@ -1,0 +1,166 @@
+{
+    "component": [
+      {
+        "id": "topic1",
+        "state": false,
+        "render_type": "Map",
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 200, "height": 200 },
+        "topic": [
+          {
+            "name": "topic1",
+            "topic": "/topic1",
+            "render_segment": "GPS",
+            "type": "String",
+            "route": "/subscriber/topic1"
+          },
+          {
+            "name": "topic2",
+            "topic": "/topic2",
+            "render_segment": "GPS",
+            "type": "String",
+            "route": "/subscriber/topic1"
+          }
+        ]
+      },
+      {
+        "id": "topic2",
+        "state": false,
+        "render_type": "String",
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 200, "height": 200 },
+        "topic": [
+          {
+            "name": "topic1",
+            "topic": "/topic1",
+            "type": "String",
+            "route": "/subscriber/topic1"
+          }
+        ]
+      },
+      {
+        "id": "topic3",
+        "state": false,
+        "render_type": "test",
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 200, "height": 200 },
+        "topic": [
+          {
+            "name": "topic1",
+            "topic": "/topic1",
+            "type": "String",
+            "route": "/subscriber/topic1"
+          }
+        ]
+      },
+      {
+        "id": "Map",
+        "state": false,
+        "render_type": "MapCenter",
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 650, "height": 650 },
+        "topic": [
+          {
+            "name": "gps_cordinates",
+            "topic": "/gps/fix",
+            "type": "NavSatFix",
+            "route": "/subscriber/gps_cordinates"
+          },
+          {
+            "name": "waypoint_reached",
+            "topic": "/waypoint_reached",
+            "type": "String",
+            "route": "/subscriber/waypoint_reached"
+          },
+          {
+            "name": "waypoint_add",
+            "topic": "/waypoint_add",
+            "type": "String",
+            "route": "/publisher/waypoint_add"
+          },
+          {
+            "name": "waypoint_delete",
+            "topic": "/waypoint_delete",
+            "type": "String",
+            "route": "/publisher/waypoint_delete"
+          }
+        ]
+      },
+      {
+        "id": "OpenStreetMap",
+        "state": false,
+        "render_type": "OpenStreetMapCenter",
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 650, "height": 650 },
+        "topic": [
+          {
+            "name": "gps_cordinates",
+            "topic": "/gps/fix",
+            "type": "NavSatFix",
+            "route": "/subscriber/gps_cordinates"
+          },
+          {
+            "name": "waypoint_reached",
+            "topic": "/waypoint_reached",
+            "type": "String",
+            "route": "/subscriber/waypoint_reached"
+          },
+          {
+            "name": "waypoint_add",
+            "topic": "/waypoint_add",
+            "type": "String",
+            "route": "/publisher/waypoint_add"
+          },
+          {
+            "name": "waypoint_delete",
+            "topic": "/waypoint_delete",
+            "type": "String",
+            "route": "/publisher/waypoint_delete"
+          }
+        ]
+      },
+      {
+        "id": "topic5",
+        "state": false,
+        "render_type": "test",
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 200, "height": 200 },
+        "topic": [
+          {
+            "name": "gps_cordinates",
+            "topic": "/gps/fix",
+            "type": "NavSatFix",
+            "route": "/subscriber/gps_cordinates"
+          }
+        ]
+      }
+    ],
+    "preset_list": [
+      {
+        "preset_name": "preset1",
+        "size_config": { "width": 1625, "height": 900 },
+        "settings": [
+          {
+            "id": "OpenStreetMap",
+            "size": { "width": 1200, "height": 900 },
+            "position": { "x": 0, "y": 0 }
+          },
+          {
+            "id": "topic2",
+            "size": { "width": 350, "height": 300 },
+            "position": { "x": 1200, "y": 0 }
+          },
+          {
+            "id": "topic3",
+            "size": { "width": 350, "height": 300 },
+            "position": { "x": 1200, "y": 300 }
+          },
+          {
+            "id": "topic1",
+            "size": { "width": 350, "height": 300 },
+            "position": { "x": 1200, "y": 600 }
+          }
+        ]
+      }
+    ]
+  }

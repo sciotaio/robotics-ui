@@ -1,0 +1,8 @@
+webinterface:
+  ros__parameters:
+    subscriber_list_name: [topic1, topic2, gps_cordinates, waypoint_reached]
+    subscriber_list_topic: [/topic1, /topic2, /gps/fix, /waypoint_reached]
+    subscriber_list_type: [String, String, NavSatFix, String]
+    publisher_list_name: [waypoint_add, waypoint_delete]
+    publisher_list_topic: [/waypoint_add, /waypoint_delete]
+    publisher_list_type: [String, String]
