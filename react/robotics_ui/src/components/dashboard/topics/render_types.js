@@ -5,7 +5,6 @@ import { GenericTopic } from "../../../plugins/Generic_topic/generic";
 
 export const RenderType = Object.freeze({
 	String: TopicString,
-	MapCenter: MapCenter,
 	OpenStreetMapCenter: OpenStreetMapCenter,
 	Generic: GenericTopic,
 });
